@@ -17,18 +17,8 @@ module.exports = env => ({
         use: ['babel-loader'],
       },
       {
-        test: /\.(gif|png|jpe?g|svg)$/i,
-        use: [
-          {
-            loader: 'url-loader',
-            options: {
-              name: '[path][name].[ext]',
-              limit: 8192,
-              esModule: false,
-            },
-          },
-          'img-loader',
-        ],
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
       },
       {
         test: /\.woff(2)?(\?[a-z0-9#=&.]+)?$/,
