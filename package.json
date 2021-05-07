@@ -1,5 +1,5 @@
 {
-  "name": "webpack-starter-kit",
+  "name": "goit-js-team-10",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexLeonNovak/webpack5-starter-kit.git"
+    "url": "git+https://github.com/AlexLeonNovak/goit-js-team-10.git"
   },
   "keywords": [],
   "author": "AlexNovak <alexleonnovak@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AlexLeonNovak/webpack5-starter-kit/issues"
+    "url": "https://github.com/AlexLeonNovak/goit-js-team-10/issues"
   },
-  "homepage": "https://github.com/AlexLeonNovak/webpack5-starter-kit#readme",
+  "homepage": "https://github.com/AlexLeonNovak/goit-js-team-10#readme",
   "devDependencies": {
     "@babel/core": "^7.13.1",
     "@babel/preset-env": "^7.13.5",
